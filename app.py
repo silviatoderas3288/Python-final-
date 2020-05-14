@@ -18,6 +18,12 @@ def hi():
 @app.route("/1006")
 def exercise():
     return render_template("1006.html")
+@app.route("/frank")
+def frank():
+    return render_template("frank.html")
+@app.route("/frank")
+def awards():
+    return render_template("awards.html")
 #start the server
 if __name__ == "__main__":
     app.run()
