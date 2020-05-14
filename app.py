@@ -21,7 +21,7 @@ def exercise():
 @app.route("/frank")
 def frank():
     return render_template("frank.html")
-@app.route("/frank")
+@app.route("/awards")
 def awards():
     return render_template("awards.html")
 #start the server
